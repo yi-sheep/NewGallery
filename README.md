@@ -1,10 +1,16 @@
 # 网络图库
 使用了
+
 Navigation+Fragment : 采用单Activity模式
+
 RecyclerView+ListAdapter : 实现了数据前后对比
+
 StaggeredGridLayoutManager : 不规则显示
+
 SwipeRefreshLayout : 下拉刷新
+
 ShimmerLayout : 实现图片还未加载时为闪烁状态
+
 ViewPager2 : 图片分页查看
 
 添加的依赖库
