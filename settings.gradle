@@ -1,0 +1,2 @@
+rootProject.name='NewGallery'
+include ':app'

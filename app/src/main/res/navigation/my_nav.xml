@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/galleryFragment">
+
+    <fragment
+        android:id="@+id/galleryFragment"
+        android:name="com.gaoxianglong.newgallery.GalleryFragment"
+        android:label="浏览"
+        tools:layout="@layout/fragment_gallery">
+        <action
+            android:id="@+id/action_galleryFragment_to_photoFragment"
+            app:destination="@id/photoFragment"
+            app:enterAnim="@anim/slide_feom_left"
+            app:exitAnim="@anim/slide_to_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/photoFragment"
+        android:name="com.gaoxianglong.newgallery.PhotoFragment"
+        android:label="详细"
+        tools:layout="@layout/fragment_photo" />
+</navigation>
